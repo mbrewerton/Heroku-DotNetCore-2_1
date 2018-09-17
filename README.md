@@ -1,5 +1,5 @@
-# .Net Core 2.1.1, Heroku-Ready
-This repo provides a .NET Core 2.1.1 basic MVC/Bootstrap project ready for deployment to Heroku. Once pulled the repo, make sure it builds and runs locally, then to get it running on Heroku you need to:
+# .Net Core 2.1.1 With: Angular 6, Heroku-Ready
+This repo provides a .NET Core 2.1.1 Angular 6 SPA Application ready for deployment to Heroku. Once you've pulled the repo, make sure it builds and runs locally, then to get it running on Heroku you need to:
 
 **Note:** this is using the Heroku CLI. If you are **totally** unaware of how to use the Heroku CLI, I recommend spending 10 minutes here: [https://devcenter.heroku.com/categories/command-line]()
 
