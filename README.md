@@ -5,8 +5,10 @@ This repo provides a .NET Core 2.1.1 basic MVC/Bootstrap project ready for deplo
 
 #### Create the App
 1. Open a command prompt in the project directory (eg: `C:\Projects\Heroku-DotNetcore-2_1`)
-2. Create the Heroku App: `heroku apps:create my-dotnet-core`
-3. Add the .NET Core Buildpack for this version (2.1.300): `heroku buildpacks:add https://github.com/jincod/dotnetcore-buildpack#v2.1.300`
+2. Create the Heroku App: `heroku apps:create dotnet-core-ng6`
+3. Add the required Buildpacks: 
+    1. NodeJs: `heroku buildpacks:add heroku/nodejs --app <your-app-name>`
+    2. .NET Core (2.1.300): `heroku buildpacks:add https://github.com/jincod/dotnetcore-buildpack#v2.1.300 --app <your-app-name>`
 
 #### Setup the Remote
 1. Add the remote to the git repo: `git remote add heroku https://git.heroku.com/<your-app-name>.git`
